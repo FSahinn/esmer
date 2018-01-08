@@ -1,7 +1,7 @@
 title:          Ferdi Şahin
 description:    Web Tasarımcı
-url:
-baseurl: 
+url:            https://fsahinn.github.io/esmer
+baseurl:        https://fsahinn.github.io/esmer
 permalink:      /blog/:title/
 
 author:
