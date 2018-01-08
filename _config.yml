@@ -1,0 +1,36 @@
+title:          Ferdi Şahin
+description:    Web Tasarımcı
+url:
+baseurl: 
+permalink:      /blog/:title/
+
+author:
+    name:       Ferdi
+    surname:    Şahin
+    picture:    assets/img/profile.jpg
+    bio:        Merhaba, benim adım Ferdi. Bu da benim websitem.
+    facebook:   https://www.facebook.com/frdnet
+    twitter:    https://www.twitter.com/fdihn
+    instagram:  https://www.instagram.com/frd_sahin
+    github:     https://www.github.com/FSahinn
+    mail:      me@esmer.me
+    
+gems: ['jekyll-paginate','jekyll-seo-tag']
+
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+twitter:
+  username: fdihn
+  
+social:
+  name: Ferdi Şahin
+  links:
+    - https://twitter.com/fdihn
+    - https://www.facebook.com/frdnet
+    - https://github.com/FSahinn
+  
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:title/

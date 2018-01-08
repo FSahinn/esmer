@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    {% include head.html %}
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header id="header">
+        <div class="container">
+           
+            {% include navigation.html %}
+            
+            
+            {% if page.title %}
+            <!-- Description -->
+            <div class="d-flex align-items-center justify-content-center desc">
+                <h2 class="site-description wow pulse">{{ page.title }}</h2>
+            </div>
+            <!-- Description -->
+            {% endif %}
+            
+        </div>
+    </header>
+    <!-- HEADER END -->    
+    
+    <!-- MAIN -->
+    <main id="main" class="mt130">
+        <div class="container">
+            <div class="row pd15 justify-content-center">
+                {% if page.cover %}
+                <div class="col-12 thumbnail-area wow slideInLeft">
+                    <img src="{{ site.url }}/{{ page.cover }}" alt="{{ post.title }}">
+                </div>
+                {% endif %}
+                <div class="col-md-12 col-lg-10 text-area wow slideInRight">
+                    {{ content }}
+                </div>
+                
+                
+                <div class="col-12 author-area wow slideInLeft">
+                    <div class="row">
+                       
+                        {% if site.author.picture %}
+                        <div class="col-sm-4 col-md-2 avatar">
+                            <img src="{{ site.url }}/{{ site.author.picture }}" alt="{{ page.author }}">
+                        </div>
+                        {% endif %}
+                        
+                        <div class="col-sm-8 col-md-10 author-description align-self-center">
+                            <div class="author-name"><a href="#">{{ site.author.name }}</a></div>
+                            <p>{{ site.author.bio }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- MAIN -->
+    
+    <!-- POST NAVIGATION -->
+    <div id="post-navigation">
+        <div class="container">
+            <div class="row">
+               
+                {% if page.previous.url %}
+                <div class="col-12 col-md-6 wow slideInLeft">
+                    <span class="text">Önceki Yazı</span>
+                    <h3><a href="{{page.previous.url}}">{{page.previous.title}}</a></h3>
+                </div>
+                {% endif %}
+                
+                {% if page.next.url %}
+                <div class="col-12 col-md-6 text-md-right wow slideInRight">
+                    <span class="text">Sonraki Yazı</span>
+                    <h3><a href="{{page.next.url}}">{{page.next.title}}</a></h3>                    
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    <!-- POST NAVIGATION END -->
+    
+{% include contact-area.html %}
+{% include footer.html %}
+{% include scripts.html %}
+   

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    {% include head.html %}
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header id="header">
+        <div class="container">
+           
+            {% include navigation.html %}
+            
+            
+            {% if page.description %}
+            <!-- Description -->
+            <div class="d-flex align-items-center justify-content-center desc">
+                <h2 class="site-description wow pulse">{{ page.description }} {% else %} {{ site.description }}</h2>
+            </div>
+            <!-- Description -->
+            {% endif %}
+            
+        </div>
+    </header>
+    <!-- HEADER END -->    
+
+
+{{ content }}

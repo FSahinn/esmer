@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    {% include head.html %}
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header id="header">
+        <div class="container">
+           
+            {% include navigation.html %}
+            
+            
+            {% if site.description %}
+            <!-- Description -->
+            <div class="d-flex align-items-center justify-content-center desc">
+                <h2 class="site-description wow pulse">{{ site.description }}</h2>
+            </div>
+            <!-- Description -->
+            {% endif %}
+            
+        </div>
+    </header>
+    <!-- HEADER END -->    
+
+
+    <!-- MAIN -->
+    <main id="main" class="mt130">
+        <div class="container">
+            <div class="row pd15">
+                <div class="main-top d-md-flex flex-md-wrap">
+                    <div class="col-sm-12 col-md-6 col-lg-7 box-area wow slideInLeft">
+                        <a href="{{ site.url }}/about" class="img-link">
+                            <img class="img-fluid" src="assets/img/home/about-me.jpeg" alt="About Me">
+                            <h2 class="title">Ben <br>Kimim.</h2>
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-5 box-area wow slideInRight">
+                        <a href="{{ site.url }}/portfolio" class="img-link">
+                            <img src="assets/img/home/latest-projects.jpeg" alt="Latest Projects" class="img-fluid">
+                            <h2 class="title">Son <br>Projeler.</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="main-bottom d-md-flex flex-md-wrap">
+                    <div class="col-sm-12 col-md-6 col-lg-4 box-area wow slideInLeft">
+                        <a href="{{ site.url }}/blog" class="img-link">
+                            <img src="assets/img/home/latest-posts.jpeg" alt="Latest Posts" class="img-fluid">
+                            <h2 class="title">Son <br>Yazılar.</h2>
+                        </a>
+                    </div>
+                    
+                    <div class="col-sm-12 col-md-6 col-lg-4 box-area wow slideInUp">
+                        <a href="mailto:{{ site.author.mail }}" class="img-link">
+                            <img src="assets/img/home/contact-us.jpeg" alt="Contact Us" class="img-fluid">
+                            <h2 class="title">Bana <br>Ulaşın.</h2>
+                        </a>
+                    </div>
+                    
+                    <div class="col-sm-12 col-md-12 col-lg-4 social-area box-area wow slideInRight">
+                        <div class="row">
+                            <div class="col-md-6 social-box pr-lg-0">
+                                <a class="facebook" href="{{ site.author.facebook }}">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </div>
+                            <div class="col-md-6 social-box pl-lg-0">
+                                <a class="twitter" href="{{ site.author.twitter }}">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                            <div class="col-md-6 social-box pr-lg-0">
+                                <a class="instagram" href="{{ site.author.instagram }}">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                            <div class="col-md-6 social-box pl-lg-0">
+                                <a class="github" href="{{ site.author.github }}">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- MAIN -->
+
+    {% include footer.html %}
+    {% include scripts.html %}
+    
+</body>
+</html> 

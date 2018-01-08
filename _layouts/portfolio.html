@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    {% include head.html %}
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header id="header" class="inside portfolio">
+        <div class="container">
+           
+            {% include navigation.html %}
+            
+            
+            {% if page.title %}
+            <!-- Description -->
+            <div class="d-flex align-items-center justify-content-center desc">
+                <h2 class="site-description wow pulse">{{ page.title }}</h2>
+            </div>
+            <!-- Description -->
+            {% endif %}
+            
+        </div>
+    </header>
+    <!-- HEADER END -->    
+
+    <!-- MAIN -->
+    <main id="main" class="page">
+        <div class="container">
+            <div class="row">
+               
+                {% for item in site.portfolio %}
+                <!-- Col -->
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                   
+                    <!-- Article -->
+                    <article class="post post-normal blog-post">
+                        <a href="{{ item.url | absolute_url }}">
+                           
+                            <!-- Article Image -->
+                            <img class="img-fluid" src="{% if item.cover %}{{ site.url }}/{{ item.cover }}{% endif %}" alt="{{ item.title }}">
+                            <!-- Article Image End -->
+                            
+                            <!-- Article Category -->
+                            <span class="meta">                        
+                                <span class="cat date wow slideInRight" data-wow-duration="1.5s">{{ item.date | date: "%-d %B %Y" }}</span>
+                            </span>
+                            <!-- Article Category End -->
+                            
+                            <!-- Article Title -->
+                            <h2 class="title wow slideInLeft">{{ item.title }}</h2>
+                            <!-- Article Title End -->
+                        </a>
+                    </article>
+                    <!-- Article End -->
+                    
+                </div>
+                <!-- Col End -->
+                {% endfor %}
+                
+            </div>
+                            
+        </div>
+    </main>
+    <!-- MAIN -->
+    
+
+    {% include contact-area.html %}
+    {% include footer.html %}
+    {% include scripts.html %}

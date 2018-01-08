@@ -1,0 +1,20 @@
+---
+layout: page
+title: Hakkımda
+---
+
+Merhaba, ben Ferdi. Samsun'un Bafra ilçesinde dünyaya gelmişim. Küçüklüğüm pek sokaklar da geçmedi, dayımın windows 95 bilgisayarı vardı onda oyunlar oynardık. Hatırlıyorum da şöyle ismini hatırlamadığım bir kaç oyun mevcuttu hepsi de yandan görünüş oyunlardı. Tabi zaman geçtikçe WarCraft, Tomb Raider gibi oyunlar çıkınca ben böyle 3 boyutlu oyunları görünce daha çok bağlandım bilgisayara sonra bilgisayar oyunları sevdalısı oldum diyebilirim.
+
+İlk sitemi 2006-2007 sıralarında hazır siteler vardı onlarla açtım sanırım o şekilde hatırlıyorum. Daha sonra ücretsiz forumlar vardı o şekilde ücretsiz forum açtım tabi bunların hepsi boşa yapılmış şeylerdi. Yine de benim için o yıllar da tecrübe oldu. Yani o gün sitelerle öyle uğraşmasaydım belki de şu an olduğum kişi olamayacaktım. Daha sonra alan adı ve hosting alıp kendi forumumu kurdum onda da pek başarılı olduğum söylenemez. 250 - 300 üye yapmıştım sonra HACK yemişti forumum. Sabah bir uyanıyorsunuz ve HACK yediğinizi görüyorsunuz çok saçma değil mi? O günden sonra zaten çok soğudum o işlerden. Forumu bıraktım forumlarda ki renkleri vs. tasarım değişikliği yapmaya başladım. İlk tasarımcı olacağım o zamanlardan belliymiş ama ne kadar kötü yaptığımı tahmin bile edemezsiniz aşırı kötüydü şu anda aklıma geldikçe ne kadar kötü olduğunu tahmin edebiliyorum. 
+
+Daha sonra 2008 - 2009 yılları sanırım hazır HTML şablonları düzenleme başladım. İşte ingilizce yerleri Türkçe'ye çeviriyorum daha sonra bir kaç yerini düzenleyip paylaşıyorum. Tabi bu yıllarda HTML'i biraz da olsa kavradım ancak CSS kısmı çok derindi ve hiç bir zaman öğrenemeyeceğimi düşündüm. 
+
+2010'du herhalde HTML&CSS kitabı aldım. O kitap hala durur bende, 2 günde bütün sayfaları tek tek okuyarak doğru düzgün uyumadan CSS'i de o şekilde öğrendim. Tabi tamamen öğrenemedim kitap da sadece belli şeyler anlatılmıştı daha kafamda binlerce bilmediğim şey vardı. Ben sadece işte renk değiştirme genişlik yükseklik  vs. gibi basit şeyleri biliyordum. Şablon yapabiliyordum ama basit kalıyordu. Yılmadım her gün farklı şablon yaptım o şablonların çoğu hala bilgisayarımda durur eskileri açar açar bakarım. Kendi kendime nereden nereye geldin Ferdi derim. Kendimden bu şekilde bahsediyorum ki siz de bir şey yaparken yılmayın bir işe atıldığınız da yılmadan onun üstüne gidin öğrenmeye çalışın. 
+
+Ben bir anda HTML&CSS'i öğrenmedim zamanla yavaş yavaş öğrendim. Daha sonra Photoshop'ta şablonlar yapmaya çalıştım her ne kadar yapamsam da en kötü şekilde yapıyordum. Diğer kişilere gösterdiğim de herkes çok kötü olduğunu söylüyordu ama bu beni asla yaptığım şeylerden yıldıramadı aksine onlar kötü dedikçe ben daha çok photoshop'la zaman geçirip daha iyi şeyler yapmaya çalışıyordum. Ama ne yazık ki photoshop'daki deneyimim o kadar iyi olmadı. Photoshop'ta her ne kadar şablon yapabilsem de soğudum. Ondan sonra da yapmak istemedim.
+
+2013 yılında askere gittim 2014 yılında geldim. Ben gelene kadar tüm siteler Bootstrap'a dönmüş, mobil uyum devri gelmiş. Ben kaldım öyle çünkü daha önce bootstrap ile hiç bir şablon vs. yapmamıştım. Ama onu öğrenmem de fazla sürmedi yaklaşık 1 hafta gibi bir sürede bootstrap'i öğrendim. Daha sonra yaptığım şablonları bootstrap ile yapmaya başladım. 
+
+Bootstrap'i öğrendikten sonra bir de Wordpress'i öğrenmek istedim kendi temamı yapacak kadar öğrendim ilk başlarda tema paneli kullanmadan yapıyordum daha sonra tema paneli kullanarak yapmaya başladım. Kullandığım tema paneli çok sıkıntılıydı daha sonra github'da ki bir projede tema paneli bulup onunla yapmaya başladım. 2017'nin ortalarına kadar yüzlerce Wordpress teması yaptım müşterilerim için daha sonra gerçekten sıktı wordpress beni. Çünkü Wordpress amacını aştı artık sorunlarla boğuşmaya başladım. Yine normal blog temalarını yapıyorum ama çok aşırı derecede isteklere sahip temaları yapmıyorum. Yapmak da istemiyorum zaten.
+
+Şimdiler de ise web tasarımcı olarak takılıyorum öyle. Eğer sizin de web tasarım, arayüz geliştirme gibi işleriniz olursa bana ulaşabilirsiniz. Okuduğunuz için teşekkürler...

@@ -1,0 +1,31 @@
+    <!-- FOOTER -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-lg-2 align-self-center">               
+                    {% if site.author.name && site.author.surname %}
+                    <h2 class="site-title"><a href="{{ site.url }}">{{ site.author.name }} <span>{{ site.author.surname }}</span></a></h2>
+                    {% else %}
+                    <h2 class="site-title"><a href="{{ site.url }}">{{ site.title }}</a></h2>
+                    {% endif %} 
+                </div>
+                <div class="col-md-8 col-lg-10">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="{{ site.url }}">Anasayfa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ site.url }}/about">Hakkımda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ site.url }}/portfolio">Portföy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ site.url }}/blog">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END -->

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    {% include head.html %}
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header id="header" class="inside about-me">
+        <div class="container">
+           
+            {% include navigation.html %}
+            
+            
+            {% if page.title %}
+            <!-- Description -->
+            <div class="d-flex align-items-center justify-content-center desc">
+                <h2 class="site-description wow pulse">{{ page.title }}</h2>
+            </div>
+            <!-- Description -->
+            {% endif %}
+            
+        </div>
+    </header>
+    <!-- HEADER END -->    
+
+
+    <!-- MAIN -->
+    <main id="main" class="page">
+        <div class="container">
+             <article class="text-area wow slideInLeft">
+               
+                {{ content }}
+                           
+             </article>
+        </div>
+    </main>
+    <!-- MAIN -->
+
+    {% include contact-area.html %}
+    {% include footer.html %}
+    {% include scripts.html %}
+    
+</body>
+</html> 
+
