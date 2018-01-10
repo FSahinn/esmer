@@ -28,10 +28,19 @@
     <main id="main" class="mt130">
         <div class="container">
             <div class="row pd15 justify-content-center">
-                {% if page.cover %}
-                <div class="col-12 thumbnail-area wow slideInLeft">
-                    <img src="{{ site.url }}/{{ page.cover }}" alt="{{ post.title }}">
-                </div>
+              
+                {% if page.gallery %}
+                <div class="col-12 image-gallery wow slideInLeft">
+                    <div class="row">
+                        {% for gallery in page.gallery %}
+                        <div class="col-xs-12 col-sm-6 col-md-3 image-box">
+                            <a href="{{ site.baseurl }}{{ gallery.image }}">
+                                <img src="{{ site.baseurl }}{{ gallery.image }}" alt="{{ page.title }}">
+                            </a>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>  
                 {% endif %}
                 <div class="col-md-12 col-lg-10 text-area wow slideInRight">
                     {{ content }}
