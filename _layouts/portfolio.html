@@ -27,28 +27,22 @@
     <!-- MAIN -->
     <main id="main" class="page">
         <div class="container">
-            <div class="row">
+            <div class="row image-gallery">
                
-                {% for item in site.portfolio %}
+                {% for portfolio in site.data.portfolio %}
                 <!-- Col -->
                 <div class="col-xs-12 col-md-6 col-lg-4">
                    
                     <!-- Article -->
-                    <article class="post post-normal blog-post">
-                        <a href="{{ item.url | absolute_url }}">
+                    <article class="post post-normal portfolio-post">
+                        <a href="{{ portfolio.image }}">
                            
                             <!-- Article Image -->
-                            <img class="img-fluid" src="{% if item.cover %}{{ site.url }}/{{ item.cover }}{% endif %}" alt="{{ item.title }}">
+                            <img class="img-fluid" src="{{ portfolio.cover }}" alt="{{ portfolio.title }}">
                             <!-- Article Image End -->
                             
-                            <!-- Article Category -->
-                            <span class="meta">                        
-                                <span class="cat date wow slideInRight" data-wow-duration="1.5s">{{ item.date | date: "%-d %B %Y" }}</span>
-                            </span>
-                            <!-- Article Category End -->
-                            
                             <!-- Article Title -->
-                            <h2 class="title wow slideInLeft">{{ item.title }}</h2>
+                            <h2 class="title wow slideInLeft">{{ portfolio.title }}</h2>
                             <!-- Article Title End -->
                         </a>
                     </article>
