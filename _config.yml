@@ -10,7 +10,7 @@ author:
     picture:    assets/img/profile.jpg
     bio:        Merhaba, benim adım Ferdi. Bu da benim websitem.
     facebook:   https://www.facebook.com/frdnet
-    twitter:    https://www.twitter.com/fdihn
+    twitter:    https://www.twitter.com/esmerinblogu
     instagram:  https://www.instagram.com/frd_sahin
     github:     https://www.github.com/FSahinn
     mail:      admin@esmer.me
@@ -21,12 +21,12 @@ paginate: 5
 paginate_path: "/blog/page:num/"
 
 twitter:
-  username: fdihn
+  username: esmerinblogu
   
 social:
   name: Ferdi Şahin
   links:
-    - https://twitter.com/fdihn
+    - https://twitter.com/esmerinblogu
     - https://www.facebook.com/frdnet
     - https://github.com/FSahinn
   
