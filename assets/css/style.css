@@ -241,7 +241,7 @@ a:active {
   display: block;
 }
 #main .image-gallery img {
-  height: 200px;
+  height: 100%;
   width: 100%;
   object-fit: cover;
   -o-object-fit: cover;
